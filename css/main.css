@@ -1,0 +1,46 @@
+/* // 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #3262f0;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+$card-header-shadow: 0;
+$card-radius: 1rem; */
+
+:root {
+  --bulma-body-color: rgb(255 255 255);
+  --bulma-primary-rgb: rgb(50 98 240);
+  --bulma-primary-h: 225deg;
+  --bulma-primary-s: 87%;
+  --bulma-primary-l: 57%;
+  --bulma-primary-00-l: 1%;
+  --bulma-primary-05-l: 6%;
+  --bulma-primary-10-l: 11%;
+  --bulma-primary-15-l: 16%;
+  --bulma-primary-20-l: 21%;
+}
+
+.card {
+  background-color: rgb(247, 248, 250);
+  box-shadow: none;
+}
+
+.card-header {
+  box-shadow: none;
+}
+
+.brand-image {
+  max-width: fit-content;
+}
+
+.footer {
+  padding: 2rem;
+}
