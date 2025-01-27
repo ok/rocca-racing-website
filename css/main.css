@@ -17,20 +17,19 @@ $card-radius: 1rem; */
 
 :root {
   --bulma-body-color: rgb(255 255 255);
-  --bulma-primary-rgb: rgb(50 98 240);
   --bulma-primary-h: 225deg;
   --bulma-primary-s: 87%;
   --bulma-primary-l: 57%;
-  --bulma-primary-00-l: 1%;
-  --bulma-primary-05-l: 6%;
-  --bulma-primary-10-l: 11%;
-  --bulma-primary-15-l: 16%;
-  --bulma-primary-20-l: 21%;
+}
+
+.hero.is-primary .title {
+  --bulma-title-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+  --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 
 .card {
   background-color: rgb(247, 248, 250);
-  box-shadow: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
 }
 
 .card-header {
