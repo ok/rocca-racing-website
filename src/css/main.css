@@ -16,7 +16,7 @@ $card-header-shadow: 0;
 $card-radius: 1rem; */
 
 :root {
-  --bulma-body-color: rgb(255 255 255);
+  --bulma-body-color: rgb(0 0 0);
   --bulma-primary-h: 225deg;
   --bulma-primary-s: 87%;
   --bulma-primary-l: 57%;

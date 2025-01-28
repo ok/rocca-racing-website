@@ -1,25 +1,12 @@
 {
-  "name": "bulma-start",
-  "version": "0.0.5",
-  "description": "Start package for Bulma",
-  "keywords": [
-    "sass",
-    "bulma",
-    "css",
-    "start"
-  ],
-  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jgthms/bulma-start.git"
-  },
+  "name": "11ty",
+  "version": "0.1",
+  "description": "new site",
+  "author": "Oliver Kohl <gokohl@gmail.com> (http://oliverkohl.com)",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "@babel/cli": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
-    "autoprefixer": "^10.4.14",
-    "npm-run-all": "^4.1.5",
-    "postcss-cli": "^10.1.0"
+    "@11ty/eleventy": "^3.0.0"
   },
   "scripts": {
     "css-deploy": "npm run css-postcss",
@@ -28,8 +15,5 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel js-watch"
-  },
-  "dependencies": {
-    "bulma-start": "^0.0.5"
   }
 }
