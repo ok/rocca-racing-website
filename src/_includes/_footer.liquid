@@ -1,9 +1,35 @@
-    <footer class="footer">
-      <nav class="level">
-      {%- for item in navigation.nav_items // from global data file %}
-        <span class="level-item">
-          <a href="{{ item.url }}" class="link is-info">{{ item.title }}</a>
-        </span>
-      {%- endfor %}
-      </nav>
-    </footer>
+<section class="section has-background-primary py-6">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-5">
+          <h2 class="mb-16 title is-size-3 has-text-white has-text-weight-bold">Rocca Racing Simulator von RoC-Stahl.</h2>
+          <a class="button is-white has-text-link has-text-weight-semibold" href="#">Angebot anfordern</a>
+      </div>
+      <div class="column is-6 is-offset-2">
+        <div class="is-flex is-flex-direction-column is-justify-content-space-between" style="height: 100%;">
+          <div class="columns">
+            <div class="column is-4">
+              <ul>
+                {%- for item in navigation.nav_items // from global data file %}
+                  {%- if item.header == true %}
+                    <li class="mb-3"><a class="has-text-white has-text-weight-medium" href="{{ item.url }}">{{ item.title }}</a></li>
+                  {%- endif %}
+                {%- endfor %}
+              </ul> 
+            </div>
+            <div class="column is-4">
+              <ul>
+                {%- for item in navigation.nav_items // from global data file %}
+                  {%- if item.header != true %}
+                    <li class="mb-3"><a class="has-text-white has-text-weight-medium" href="{{ item.url }}">{{ item.title }}</a></li>
+                  {%- endif %}
+                {%- endfor %}
+              </ul> 
+            </div>
+          </div>
+          <p class="has-text-white has-text-weight-medium">Copyright © 2025 RoC-Stahl. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
