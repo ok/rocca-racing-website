@@ -41,7 +41,7 @@ $card-radius: 1rem; */
 }
 
 .content-image {
-  border-radius: 10px;
+  border-radius: 0.75rem;
 }
 
 .footer {

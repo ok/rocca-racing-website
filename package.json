@@ -15,6 +15,7 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel js-watch",
+    "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
   }

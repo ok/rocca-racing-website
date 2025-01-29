@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-layout: product.liquid
+layout: contact.liquid
 ---
 
 hier stehen wichtige Kontaktinformationen
