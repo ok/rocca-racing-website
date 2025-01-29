@@ -3,5 +3,6 @@ export default function(eleventyConfig) {
   eleventyConfig.setOutputDirectory("dist");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/public");
-	eleventyConfig.addWatchTarget("**/*.(png|jpeg|webp)");
+  eleventyConfig.addPassthroughCopy({ "src/img/favicon.ico": "/" });
+	eleventyConfig.addWatchTarget("**/*.(png|jpeg|webp|ico)");
 };

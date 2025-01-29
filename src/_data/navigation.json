@@ -1,0 +1,27 @@
+{
+  "nav_items": [
+    {
+      "title": "Start",
+      "url": "/",
+      "header": true
+    },
+    {
+      "title": "Produktdetails",
+      "url": "/produkt",
+      "header": true
+    },
+    {
+      "title": "Kontakt",
+      "url": "/kontakt",
+      "header": true
+    },
+    {
+      "title": "Impressum",
+      "url": "/impressum"
+    },
+    {
+      "title": "Datenschutzerklärung",
+      "url": "/datenschutz"
+    }
+  ]
+}
