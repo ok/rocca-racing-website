@@ -7,12 +7,12 @@
     },
     {
       "title": "Produktdetails",
-      "url": "/produkt",
+      "url": "/product",
       "header": true
     },
     {
       "title": "Kontakt",
-      "url": "/kontakt",
+      "url": "/contact",
       "header": true
     },
     {

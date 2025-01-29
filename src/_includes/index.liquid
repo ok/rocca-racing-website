@@ -2,7 +2,7 @@
 layout: base.liquid
 title: Homepage
 ---
-      <section class="hero is-medium is-primary mb-5">
+      <section class="section hero is-primary mb-5">
         <div class="hero-body" style="background-image: url('/img/rocca-racing-foto.webp'); background-position: right center; background-size: 40%; background-repeat: no-repeat;">
           <div class="container">
             <div class="columns">
@@ -24,8 +24,7 @@ title: Homepage
         <div class="container fixed-grid has-2-cols has-1-cols-mobile">
           <h2 class="title has-text-centered">Die herausragenden Vorteile des Rocca Racing Simulator</h2>
             <div class="grid is-col-min-16 is-gap-3">
-
-            {% for feature in features %}
+            {%- for feature in features %}
               <div class="cell">
                 <div class="card">
                   <header class="card-header">
@@ -38,8 +37,7 @@ title: Homepage
                   </div>
                 </div>
               </div>
-            {% endfor  %}
-
+            {%- endfor  %}
             </div>
           </div>
         </div>
