@@ -37,8 +37,7 @@ $card-radius: 1rem; */
 }
 
 .brand-image {
-  width: 42px;
-  height: auto;
+  max-width: fit-content;
 }
 
 .hero-image {
