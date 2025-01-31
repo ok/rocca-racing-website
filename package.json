@@ -15,8 +15,13 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel js-watch",
-    "build": "npx @11ty/eleventy",
+    "image-transform": "pwd && node scripts/image-transform.js",
+    "build": "npm run image-transform && npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "sharp": "^0.33.5"
   }
 }

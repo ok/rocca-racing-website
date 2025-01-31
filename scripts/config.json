@@ -1,0 +1,34 @@
+{
+  "inputDir": "../assets",
+  "outputDir": "../dist/img",
+  "images": [
+    {
+      "filename": "rocca-racing-stahlrahmen.jpg",
+      "sizes": [660]
+    },
+    {
+      "filename": "rocca-racing-motor.jpg",
+      "sizes": [660]
+    },
+    {
+      "filename": "rocca-racing-foto.webp",
+      "sizes": [420, 300]
+    },
+    {
+      "filename": "rocca-racing-details.jpg",
+      "sizes": [1200]
+    },
+    {
+      "filename": "roc-stahl-logo.webp",
+      "sizes": [28]
+    },
+    {
+      "filename": "norman-beuthner-foto.jpg",
+      "sizes": [320]
+    },
+    {
+      "filename": "motorsport-foto.png",
+      "sizes": [660]
+    }
+  ]
+}
